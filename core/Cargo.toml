@@ -1,0 +1,12 @@
+[package]
+name = "limers_core"
+version = "0.4.1"
+edition = "2021"
+license = "MIT"
+description = "LimeRS Rust Zhuyin and English mixed candidate core"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+rusqlite = { version = "0.37", features = ["bundled"] }

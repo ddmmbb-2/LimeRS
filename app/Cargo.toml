@@ -1,0 +1,13 @@
+[package]
+name = "limers-portable"
+version = "0.5.2"
+edition = "2021"
+license = "MIT"
+description = "LimeRS portable keyboard-hook prototype for Windows"
+
+[dependencies]
+limers_core = { path = "../core" }
+
+[[bin]]
+name = "LimeRS"
+path = "src/main.rs"
